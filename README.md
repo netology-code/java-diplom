@@ -54,6 +54,8 @@ Exception in thread "main" java.lang.IllegalArgumentException: Серверу н
         System.out.println(imgTxt);
 ```
 
+![](pics/simple-test-demo.jpeg)
+
 ## Требования к цветовой схеме
 
 ## Тестирование
