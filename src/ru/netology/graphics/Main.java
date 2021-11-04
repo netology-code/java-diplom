@@ -14,7 +14,7 @@ public class Main {
         server.start(); // Запускаем
 
         // Или то же, но с сохранением в файл:
-        String url = "https://i.ibb.co/bXPpzFL/Screenshot-from-2021-11-04-20-05-30.png";
+        String url = "https://raw.githubusercontent.com/netology-code/java-diplom/main/pics/simple-test.png";
         String imgTxt = converter.convert(url);
         System.out.println(imgTxt);
     }
