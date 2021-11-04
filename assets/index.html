@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Картинки &#8594; Текст</title>
+
+    <script>
+        {{{JS}}}
+    </script>
+</head>
+<body>
+
+    <div class="container" style="max-width:700px;margin-top:10vh;">
+        <div class="row">
+            <div class="col-sm-10">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Урл картинки:</span>
+                    <input type="text"
+                            id="img-url"
+                            class="form-control"
+                            placeholder="Например, https://i.ibb.co/6DYM05G/edu0.jpg"
+                            aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default"
+                    >
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-outline-primary" onclick="submit()">
+                    Convert
+                </button>
+            </div>
+        </div>
+        <div class="row" id="alert">
+        </div>
+        <div class="row">
+            <span id="txtimg" style="font-size:10%; font-family:monospace;">
+
+            </span>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
