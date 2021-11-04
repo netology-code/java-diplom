@@ -15,8 +15,8 @@
 
 После чего откройте класс `Main` и запустите метод `main`. Запуск должен завершиться следующей ошибкой:
 > Exception in thread "main" java.lang.IllegalArgumentException: Серверу нужно передать в конструктор объект-конвертер, а было передано null.
-	at ru.netology.graphics.server.GServer.<init>(GServer.java:24)
-	at ru.netology.graphics.Main.main(Main.java:13)
+>	at ru.netology.graphics.server.GServer.<init>(GServer.java:24)
+>	at ru.netology.graphics.Main.main(Main.java:13)
 
 Если вы видите эту ошибку, то значит проект настроен верно. Если нет - напишите своему руководителю по курсовой, он подскажет с настройкой.
 
