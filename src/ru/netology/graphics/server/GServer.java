@@ -64,6 +64,7 @@ public class GServer {
             h.sendResponseHeaders(200, img.length);
             h.getResponseBody().write(img);
         } catch (Exception e) {
+            e.printStackTrace();
             var msg = e.getMessage();
             if (msg.isEmpty()) {
                 msg = "Произошла ошибка конвертации :'(";

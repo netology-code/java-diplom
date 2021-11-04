@@ -13,15 +13,9 @@ public class Main {
         GServer server = new GServer(converter); // Создаём объект сервера
         server.start(); // Запускаем
 
-        // Чтобы протестировать работу без сервера,
-        // раскоментируйте секцию ниже и закомментируйте команду строки
-        // работы с сервером выше
-        /*
-        PrintWriter fileWriter = new PrintWriter(new File("converted-image.txt"));
-        converter.setMaxWidth(200);
-        converter.setMaxHeight(300);
-        fileWriter.write(converter.convert("https://raw.githubusercontent.com/netology-code/java-homeworks/blob/master/pics/simple-test.png"));
-        fileWriter.close();
-        */
+        // Или то же, но с сохранением в файл:
+        String url = "https://i.ibb.co/bXPpzFL/Screenshot-from-2021-11-04-20-05-30.png";
+        String imgTxt = converter.convert(url);
+        System.out.println(imgTxt);
     }
 }
